@@ -1,0 +1,36 @@
+Day 01 - Interface, Install Tableau Public, Connect to Data
+
+Topics Covered:
+- Tableau Public vs Tableau Desktop (free vs paid)
+- Installation Process
+- Tableau Workspace Anatomy
+- Data Source Page
+- Sheets, Dashboards, Stories tabs
+- Shelves (Rows, Columns)
+- Marks Card
+- Show Me Panel
+- Connecting to a sample data source
+
+Practice:
+- Downloaded and installed Tableau Public Desktop (free version)
+- Created a Tableau Public account (needed for saving/publishing workbooks)
+- Explored the Start Page - Connect pane, Open recent, Discover
+- Explored Workspace anatomy: Toolbar, Data pane, Shelves (Rows/Columns),
+  Marks card, Show Me panel
+- Understood tab types at the bottom: Sheet, Dashboard, Story
+- Connected to a sample dataset (Sample - Superstore, built into Tableau)
+- Dragged a field onto Rows/Columns for a very first basic visual
+  (just to confirm connection worked)
+
+Key Takeaways:
+- Tableau Public saves/publishes workbooks online (public visibility) -
+  no local-only save for confidential data
+- Data pane splits fields into Dimensions (categorical) and Measures
+  (numerical) automatically on connect - deeper look coming Day 04
+- Marks card controls how a visual encodes data (color, size, label, detail)
+
+Resources:
+- YouTube: "How to Install & Set Up a Free Tableau Public Desktop"
+- YouTube: "Quick Guide to Tableau Interface for Beginners"
+
+Status: Completed
