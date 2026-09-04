@@ -1,0 +1,38 @@
+Day 04 - Dimensions vs Measures, Aggregation
+
+Topics Covered:
+- Dimensions (qualitative, categorical fields)
+- Measures (quantitative, numerical fields)
+- Blue Pills vs Green Pills
+- Discrete vs Continuous
+- Default Aggregation (SUM, AVG, COUNT, etc.)
+- Changing Aggregation Type
+- Converting a Dimension to a Measure (and vice versa)
+- How Dimensions "de-aggregate" a Measure
+
+Practice:
+- Identified Dimensions (Category, Region, Customer Name) vs Measures
+  (Sales, Profit, Quantity) in Sample Superstore dataset
+- Dragged a Measure (Sales) alone into the view - saw it aggregate to one
+  single SUM value
+- Dragged a Dimension (Category) alongside it - watched the measure
+  "de-aggregate" into per-category totals
+- Practiced changing default aggregation from SUM to AVG, then to COUNT
+  DISTINCT on a Measure
+- Compared Blue pill (discrete, creates headers) vs Green pill
+  (continuous, creates an axis) behavior on Rows/Columns
+- Manually converted a Dimension to a Measure and observed the color/behavior change
+
+Key Takeaways:
+- Dimensions slice/segment data (they set the "level of detail")
+- Measures are what get aggregated (Sum, Avg, Count, etc.)
+- Blue = Discrete (headers), Green = Continuous (axis) - this determines how
+  a field renders in the view, independent of Dimension/Measure status
+- Getting Dimension/Measure and Discrete/Continuous confused is one of the
+  most common beginner mistakes in Tableau
+
+Resources:
+- YouTube: "Tableau Dimensions and Measures EXPLAINED | #Tableau Course #46"
+- YouTube: "Tableau Tutorial - Dimensions vs Measures, Blue vs Green, Discrete vs Continuous"
+
+Status: Completed
