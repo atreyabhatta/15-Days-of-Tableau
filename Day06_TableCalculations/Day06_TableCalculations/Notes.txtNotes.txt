@@ -1,0 +1,36 @@
+Day 06 - Table Calculations
+
+Topics Covered:
+- Table Calculations Overview
+- Running Total
+- Percent of Total
+- Difference / Percent Difference
+- Rank
+- FIRST() and LAST() functions
+- INDEX() function
+- Compute Using (Table Across, Table Down, Specific Dimension)
+- Addressing and Partitioning
+
+Practice:
+- Built a Running Total measure on Sales over time (Quick Table Calc)
+- Built a Percent of Total measure to see each Category's contribution
+- Used RANK() to rank Products by Sales within each Region
+- Used INDEX() to number rows sequentially within a partition
+- Practiced FIRST() and LAST() to reference the first/last row in a partition
+- Changed "Compute Using" settings (Table Across vs Table Down vs
+  Specific Dimension) and observed how results change
+- Compared a Table Calculation result vs a plain aggregated Measure to see
+  the difference in scope
+
+Key Takeaways:
+- Table Calculations are computed on the data already in the view (post-query),
+  unlike regular aggregations which happen at the data source level
+- "Compute Using" (addressing) is the most important - and most commonly
+  misunderstood - setting for any table calculation
+- Table Calculations are NOT reliable for Year-over-Year across changing
+  filters - LOD expressions (Day 07) solve this more robustly
+
+Resources:
+- YouTube: "Table Calculations: FIRST, LAST, INDEX, RANK | #Tableau Course #100"
+
+Status: Completed
