@@ -1,0 +1,33 @@
+Day 09 - Maps & Geographic Visualization
+
+Topics Covered:
+- Geographic Roles (assigning Country/State/City to fields)
+- Symbol Maps
+- Filled Maps (Choropleth)
+- Latitude/Longitude - Generated vs Custom
+- Map Layers
+- Dual-Axis Maps (combining Symbol + Filled)
+- Background Maps vs Map Layers panel
+
+Practice:
+- Assigned a Geographic Role to State field (Tableau auto-detected most
+  location fields from Sample Superstore)
+- Built a Symbol Map showing Sales as bubble size per City
+- Built a Filled Map (Choropleth) showing Profit by State using color gradient
+- Fixed an "Unknown" location warning by manually editing a location match
+- Explored the Map Layers panel - toggled on/off roads, borders, terrain
+- Built a Dual-Axis map combining a Filled Map (state-level color) with a
+  Symbol Map (city-level bubbles) on top
+
+Key Takeaways:
+- Tableau auto-generates Latitude/Longitude once a field gets a Geographic Role -
+  no need for actual lat/long columns for common locations (Country/State/City)
+- Symbol Map = point-based (good for city-level, size-based comparison)
+- Filled Map (Choropleth) = area-based color fill (good for state/country-level intensity)
+- Ambiguous location names (e.g. a City that exists in multiple States) can
+  cause "Unknown" locations - these need manual correction via Edit Locations
+
+Resources:
+- YouTube: "Tableau Charts: Maps | #Tableau Course #123"
+
+Status: Completed
