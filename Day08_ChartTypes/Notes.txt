@@ -1,0 +1,36 @@
+Day 08 - Chart Types (Bar, Line, Scatter, Heatmap, Treemap)
+
+Topics Covered:
+- Bar Chart (Horizontal and Vertical)
+- Line Chart
+- Scatter Plot
+- Heatmap
+- Treemap
+- Show Me Panel (auto chart-type suggestion)
+- Dual-Axis Combo Charts
+- When to use which chart type
+
+Practice:
+- Built a Bar Chart comparing Sales across Sub-Categories
+- Built a Line Chart showing Sales trend over Order Date
+- Built a Scatter Plot comparing Sales vs Profit per Product (to spot
+  high-sales-low-profit outliers)
+- Built a Heatmap of Sales intensity across Region x Category using color saturation
+- Built a Treemap showing Sales share by Category, nested by Sub-Category
+- Used the Show Me panel to auto-suggest chart types based on selected fields,
+  then manually adjusted the result
+- Built a Dual-Axis chart combining Sales (bars) and Profit Margin % (line)
+
+Key Takeaways:
+- Bar charts = best for comparing discrete categories
+- Line charts = best for trends over continuous time
+- Scatter plots = best for spotting relationships/outliers between two measures
+- Heatmaps = best for showing intensity across two dimensions at once
+- Treemaps = best for part-to-whole + hierarchy in a dense space
+- Show Me is a good starting point but rarely the final answer - manual
+  adjustment (color, size, sort) is usually needed for a clean chart
+
+Resources:
+- YouTube: "Tableau Charts: Heatmap & Treemap | #Tableau Course #121"
+
+Status: Completed
