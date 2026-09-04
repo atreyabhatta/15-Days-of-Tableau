@@ -1,0 +1,36 @@
+Day 07 - LOD (Level of Detail) Expressions
+
+Topics Covered:
+- LOD Expressions Overview
+- FIXED LOD
+- INCLUDE LOD
+- EXCLUDE LOD
+- Difference between LOD and Table Calculations
+- Common Use Case: Customer Cohort / Average Purchase per Customer
+- Common Use Case: % of Total independent of filters
+
+Practice:
+- Built a FIXED LOD to calculate Total Sales per Customer independent of
+  any dimension in the view: { FIXED [Customer Name] : SUM([Sales]) }
+- Built an INCLUDE LOD to calculate Average Sales per Order at a Category level
+- Built an EXCLUDE LOD to remove a dimension from an aggregation
+  (e.g. Total Sales excluding Sub-Category breakdown)
+- Compared FIXED vs INCLUDE vs EXCLUDE outputs on the same dataset side by side
+- Used a FIXED LOD to identify "first purchase date" per customer for
+  cohort-style analysis
+- Confirmed LOD calculations respect Context Filters but ignore
+  normal Dimension Filters (unless FIXED) - tested this directly
+
+Key Takeaways:
+- FIXED = computes at exactly the specified dimension level, ignoring the view
+- INCLUDE = adds a dimension to the calculation's granularity (finer detail)
+- EXCLUDE = removes a dimension from the calculation's granularity (coarser detail)
+- LOD expressions are calculated BEFORE Table Calculations and mostly before
+  regular filters in Tableau's order of operations - this is why they solve
+  problems Table Calculations can't (e.g. stable Year-over-Year, per-customer averages)
+
+Resources:
+- YouTube: "LOD (Level of Detail) Expressions Explained | Made Easy to Understand | #Tableau Course #96"
+- YouTube: "FIXED Level of Detail (LOD) Expressions | #Tableau Course #97"
+
+Status: Completed
