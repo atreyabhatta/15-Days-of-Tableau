@@ -1,0 +1,34 @@
+Day 02 - Data Types, Joins, Unions
+
+Topics Covered:
+- Tableau Data Types (String, Number, Date, Boolean, Geographic)
+- Dimensions vs Measures (data type angle)
+- Joins (Inner, Left, Right, Full Outer)
+- Unions
+- Join Calculation / Custom Join Clause
+- Data Source Page - Physical vs Logical Layer
+- Relationships (new default in modern Tableau)
+
+Practice:
+- Connected to two related tables (Orders + Returns from Sample Superstore)
+- Practiced Inner Join and Left Join on Order ID as key
+- Verified row count changes based on join type (checked for row duplication)
+- Practiced Union - stacked two structurally identical tables (e.g. multiple
+  year CSV files) into one combined table
+- Explored the difference between Physical layer (joins/unions) and Logical
+  layer (relationships) on the Data Source page
+- Fixed a data type mismatch (a Date field imported as String) manually
+
+Key Takeaways:
+- Join = combines columns from two tables using a common key (side-by-side)
+- Union = stacks rows from tables with matching column structure (top-to-bottom)
+- Wrong join type can silently duplicate or drop rows - always verify row count
+  after a join
+- Modern Tableau defaults to Relationships (flexible, no duplication risk)
+  instead of forcing a hard join upfront
+
+Resources:
+- YouTube: "Tableau Join vs Union: Understanding the Key Differences"
+- YouTube: "Tableau Relationships, Data Blending, Joins and Union - Tutorial #7"
+
+Status: Completed
