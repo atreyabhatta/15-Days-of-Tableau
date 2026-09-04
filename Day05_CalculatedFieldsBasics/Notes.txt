@@ -1,0 +1,37 @@
+Day 05 - Calculated Fields Basics
+
+Topics Covered:
+- Calculated Field Editor
+- Basic Arithmetic Calculations
+- String Functions (e.g. UPPER, LEFT, MID)
+- Logical Functions (IF/THEN/ELSE, CASE)
+- Date Functions (DATEDIFF, DATEPART)
+- Ad-Hoc Calculations (typing directly in a shelf)
+- Reusability of Calculated Fields across sheets
+
+Practice:
+- Created a basic arithmetic calculated field: Profit Ratio = SUM(Profit) / SUM(Sales)
+- Built an IF/THEN/ELSE calculated field to bucket Sales into
+  "High" / "Medium" / "Low" tiers
+- Used a CASE statement to create a cleaner Region grouping
+- Built a Date calculation using DATEDIFF to get days between Order Date
+  and Ship Date
+- Used a String function (LEFT/MID) to extract part of a Product ID
+- Practiced an ad-hoc calculation directly on a shelf
+  (typed formula straight into Rows)
+- Confirmed the new calculated field appears in the Data pane and can be
+  reused across multiple sheets in the workbook
+
+Key Takeaways:
+- Calculated fields behave like new Dimensions or Measures once created -
+  they appear in the same Data pane
+- IF/THEN/ELSE and CASE are the most common ways to bucket/group data
+  that doesn't exist as a clean category in the source
+- A calculated field is reusable across the whole workbook, unlike a
+  one-off ad-hoc calculation typed directly on a shelf
+
+Resources:
+- YouTube: "Intro to Tableau Calculations & Calculated Fields | #Tableau Course #77"
+- YouTube: "Tableau Tutorial: Calculated Fields For Beginners"
+
+Status: Completed
