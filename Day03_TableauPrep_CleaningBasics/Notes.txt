@@ -1,0 +1,41 @@
+Day 03 - Tableau Prep - Cleaning Basics
+
+Topics Covered:
+- Tableau Prep Builder Interface
+- Input Step
+- Clean Step
+- Rename/Remove Fields
+- Filter Rows
+- Split Column (delimiter-based)
+- Group and Replace (fixing inconsistent category values)
+- Data Type Correction in Prep
+- Output Step (to .hyper file or extract)
+- Flow Pane vs Profile Pane
+
+Practice:
+- Opened Tableau Prep Builder and connected to a CSV input
+- Added a Clean step and explored the Profile pane (shows value distribution
+  per column - useful for spotting bad data fast)
+- Removed unnecessary columns
+- Split a "Full Name" column into First Name / Last Name using delimiter split
+- Used Group and Replace to fix inconsistent category spellings
+  (e.g. "NY", "New York", "new york" -> standardized to "New York")
+- Filtered out rows with null/blank values in a key column
+- Corrected a data type (Order Date was importing as String, fixed to Date)
+- Added an Output step and generated a .hyper extract for use in Tableau Desktop
+
+Key Takeaways:
+- Tableau Prep is a dedicated ETL tool - separate from Tableau Desktop, built
+  specifically for repeatable cleaning flows (like Power Query in Power BI)
+- Profile pane is the fastest way to spot dirty/inconsistent data before
+  building any visual
+- Group and Replace is essential for fixing "same value, different spelling"
+  issues common in real-world data
+- Output step creates a reusable .hyper extract, so cleaning only needs
+  to happen once, not every time the workbook opens
+
+Resources:
+- YouTube: "Tableau Prep Builder Tutorial for Absolute Beginners | Cleaning Data in Tableau Prep"
+- YouTube: "Episode 5 - Tableau: Data Cleansing Basics and Functions"
+
+Status: Completed
