@@ -1,0 +1,36 @@
+Day 13 - Publishing to Tableau Public
+
+Topics Covered:
+- Tableau Public Save Process
+- File Size Limits and Data Extract Requirement
+- Save to Tableau Public (from Desktop)
+- Tableau Public Profile Page
+- Workbook Visibility Settings
+- Embedding a Tableau Public Viz (embed code)
+- Downloading/Editing a Published Workbook Later
+
+Practice:
+- Converted live data connection to a Data Extract (Tableau Public requires
+  extracts, not live DB connections, for most sources)
+- Used File > Save to Tableau Public to publish the finished dashboard
+- Logged into Tableau Public account and confirmed the workbook appeared
+  on the profile page
+- Reviewed workbook visibility - Public (default) vs Unlisted
+- Copied the embed code snippet for adding the viz to a personal
+  portfolio website or blog
+- Made a small edit locally and re-published to confirm the update
+  workflow (Save to Tableau Public again, overwrite existing viz)
+
+Key Takeaways:
+- Tableau Public workbooks are PUBLIC by default - anyone with the link
+  (or on the profile page) can view and even download the underlying data,
+  so sensitive/confidential data should never be published here
+- Extracts are mandatory for Tableau Public (no live DB connections) -
+  this is different from Tableau Server/Cloud
+- The profile page becomes a portfolio in itself - worth curating cleanly
+  since recruiters may browse it directly
+
+Resources:
+- YouTube: "Upload your dashboard to Tableau Public - Tableau Tutorial P.10"
+
+Status: Completed
