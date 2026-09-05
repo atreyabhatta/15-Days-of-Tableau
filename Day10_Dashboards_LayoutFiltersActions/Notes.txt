@@ -1,0 +1,36 @@
+Day 10 - Dashboards - Layout, Filters, Actions
+
+Topics Covered:
+- Dashboard Canvas and Size Settings
+- Layout Containers (Horizontal and Vertical)
+- Object Types (Sheet, Text, Image, Web Page, Blank)
+- Floating vs Tiled Layout
+- Filter Actions
+- Highlight Actions
+- Sheet-Level vs Dashboard-Level Filters
+- Use as Filter (quick filter action shortcut)
+
+Practice:
+- Built a new Dashboard and set a fixed canvas size (Desktop 1366x768)
+- Added multiple worksheets (Bar chart, Map, Table) and arranged them using
+  Horizontal and Vertical Layout Containers for a clean grid
+- Compared Tiled layout (auto-arranged) vs Floating layout (free positioning)
+- Added a Filter Action - clicking a Region on the map filters the bar chart
+  and table to that Region
+- Added a Highlight Action - hovering over a Category highlights matching
+  data points in other visuals without filtering them out
+- Used "Use as Filter" shortcut on the map view for a quick one-click setup
+- Tested Run Action On: Select vs Hover vs Menu, and compared behavior
+
+Key Takeaways:
+- Layout Containers are essential for responsive-feeling dashboards - without
+  them, resizing gets messy fast
+- Filter Actions actually remove non-matching data from other views;
+  Highlight Actions just visually emphasize without removing data
+- Tiled = safer default for beginners (auto-adjusts); Floating = more control
+  but needs manual resizing discipline
+
+Resources:
+- YouTube: "Mastering Tableau Dashboards: Layout Containers Explained | #Tableau Course #137"
+
+Status: Completed
