@@ -1,0 +1,26 @@
+Day 15 - Polish, GitHub, Pitch
+
+Topics Covered:
+- Final Dashboard Polish (alignment, colors, tooltips)
+- README Documentation Best Practices
+- Project Overview Section (Why + What + How)
+- Folder Structure Cleanup
+- Screenshots for README
+- Tableau Public Profile Link
+- Elevator Pitch Writing
+- LinkedIn/Portfolio Post Draft
+
+Practice:
+- Did a final polish pass on the capstone dashboard (consistent colors,
+  cleaned tooltips, removed placeholder text)
+- Rewrote the repository README with a clear "Why this project" section,
+  key insights, and tools used
+- Added screenshots of the final dashboard to the README
+- Cleaned up folder structure - consistent Day01...Day15 naming, removed
+  scratch files
+- Linked the published Tableau Public profile/viz in the README
+- Wrote a 3-4 sentence elevator pitch summarizing the project's business
+  question, approach, and key insight
+- Drafted a short LinkedIn post summarizing the 15-day Tableau journey
+
+Status: Completed - 15 Days of Tableau Challenge finished
