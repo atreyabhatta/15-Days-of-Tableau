@@ -1,0 +1,27 @@
+Day 14 - Capstone Project
+
+Topics Covered:
+- End-to-End Project Workflow
+- Dataset Selection (reused Superstore dataset - same one from SQL and Power BI phases)
+- Data Import + Prep Cleaning
+- Calculated Fields (Profit Ratio, YoY Growth)
+- Chart Building (multi-chart view)
+- Dashboard Assembly with Layout Containers
+- Parameters for Interactivity
+- Publishing to Tableau Public
+
+Practice:
+- Reused the same Superstore dataset used in the SQL and Power BI phases,
+  for a connected, cross-tool portfolio story
+- Cleaned and connected the data using Tableau Prep basics from Day 03
+- Built core calculated fields: Profit Ratio, YoY Sales Growth, Top-N Rank
+- Built individual sheets: Sales by Region (map), Sales Trend (line),
+  Category Breakdown (treemap), Top Products (bar with Top-N parameter)
+- Assembled a Dashboard using Layout Containers, applying Day 11 design
+  principles (color consistency, whitespace, clear hierarchy)
+- Added a Parameter Control to switch the main chart's Measure
+  (Sales / Profit / Quantity)
+- Added Filter Actions - clicking the map filters the other charts to that Region
+- Published finished dashboard to Tableau Public
+
+Status: Completed
