@@ -1,0 +1,36 @@
+Day 12 - Parameters + Dynamic Dashboards
+
+Topics Covered:
+- Parameters Overview
+- Creating a Parameter (List, Range, Data Type)
+- Parameter Control on a Dashboard
+- Using a Parameter in a Calculated Field
+- Dynamic Measure Swap (using a Parameter to switch between Sales/Profit/Quantity)
+- Parameter-Driven Top-N Filter
+- Parameter Actions
+
+Practice:
+- Created a List Parameter with values: Sales, Profit, Quantity
+- Built a Calculated Field that returns different Measures based on the
+  selected Parameter value (Measure Swap technique)
+- Added the Parameter Control to the Dashboard so the user can switch
+  the chart's Measure with a dropdown
+- Created a "Top N" Integer Parameter (range 5-20) and used it in a
+  calculated field with RANK() to build a dynamic Top-N Products filter
+- Set up a Parameter Action - clicking a data point updates a parameter
+  value automatically (instead of using the dropdown)
+- Tested the finished dashboard end-to-end - swapping measures and
+  adjusting Top-N count live
+
+Key Takeaways:
+- Parameters are static until changed by the user - they don't come from
+  the data source, they're user-driven input
+- The "Measure Swap" technique (Parameter + Calculated Field + CASE) is one
+  of the most useful patterns for building flexible, single-chart dashboards
+- Parameter Actions turn parameters into a fully clickable experience,
+  removing the need for a visible dropdown control
+
+Resources:
+- YouTube: "Dynamic Filters using Parameters | #Tableau Course #65"
+
+Status: Completed
