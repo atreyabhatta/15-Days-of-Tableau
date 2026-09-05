@@ -1,0 +1,39 @@
+Day 11 - Stories
+
+Topics Covered:
+- Story Points
+- New Story Canvas
+- Adding Sheets/Dashboards as Story Points
+- Captions
+- Duplicating a Story Point (to show progression)
+- Navigator Style (Boxes, Arrows, Text)
+- Story vs Dashboard - when to use which
+
+Practice:
+- Created a New Story and set the story size
+- Dragged the first worksheet (Overall Sales Trend) as Story Point 1,
+  added a caption summarizing the insight
+- Dragged the Regional Dashboard as Story Point 2
+- Duplicated Story Point 2 and adjusted a filter (drilled into one
+  underperforming Region) to show progression within the same visual
+- Added a third Story Point with the Product-level detail view, captioned
+  with the key finding
+- Changed Navigator style to see how Boxes vs Arrows vs Text change the
+  presentation feel
+- Reviewed the finished Story as a "presentation mode" walkthrough (like slides)
+
+Key Takeaways:
+- Stories = sequential narrative (like a slideshow) - best for presenting
+  findings to stakeholders in a guided order
+- Dashboard = a single interactive canvas where the user explores freely
+- Duplicating a Story Point and changing its filter is the key technique for
+  showing "before vs after" or "overview vs drill-down" progression
+- Stories are less emphasized in newer Tableau workflows (many analysts now
+  use PowerPoint/PDF export from a polished Dashboard instead) but are still
+  useful for guided walkthroughs
+
+Resources:
+- YouTube: "Tableau Tutorial 44 | How to Create Stories in Tableau"
+- YouTube: "How to Create a Data Story in Tableau - Tableau in Two Minutes"
+
+Status: Completed
